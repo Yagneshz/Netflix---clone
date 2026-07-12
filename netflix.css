@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+
+.navbar{
+    height:80px;
+    width: 100vw;
+    /* background-color: pink; */
+    background-color: black;
+    display: flex;
+    position: fixed;
+    align-items: center;
+}
+
+.logo{
+    height: 80px;
+    width: 150px;
+    background-image: url(netflix_logo.png);
+    background-size: cover; 
+}
+
+.nav-items{
+   padding-left: 10px;
+
+}
+.nav-items a{
+    color: #FFFFFFB3;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.last-nav{
+    display: flex;
+    color: #FFFFFFB3;
+    position: absolute;
+    right: 50px;
+}
+
+.nav-search{
+    padding-right: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-notification{
+    padding-right: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-profile{
+    padding-right: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero video {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+/* .overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, .9) 15%,
+            rgba(0, 0, 0, .4) 45%,
+            rgba(0, 0, 0, .1) 70%);
+} */
+
+.hero-content {
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    top: 40%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.hero-content h1{
+    color: goldenrod;
+    font-family: cinzel;
+    font-size:100px ;
+    
+}
+
+.hero-content h2 {
+    color: white;
+    font-family: cinzel;
+    font-size: 60px;
+
+}
+
+.hero-content p{
+    line-height: 22px;
+}
+
+.playBtn{
+    width: 100px;
+    height: 36px;
+    border: 1px solid transparent;
+    border-radius:4px ;
+    font-size: 1rem;
+}
+
+.infoBtn {
+    width: 136px;
+    height: 36px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.movieList{
+    margin-top: -155px;
+    padding-left: 10px;
+    height: 100vh;
+    color: white;
+    background-color: black;
+  
+    align-items: center;
+}
+
+.movieList h2{
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+.card{
+    display: flex;
+}
+.cards{
+    width: 300px;
+    height: 135px;
+    margin-top: 60px;
+    margin-left: 5px;  
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.social{
+    padding-top:30PX ;
+    display: flex;
+    margin-left: 250px;
+}
+
+.social i{
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.list{
+    list-style-type:none ;
+}
+/* .list1 {
+    list-style-type: none;
+}
+.list2 {
+    list-style-type: none;
+}
+.list3 {
+    list-style-type: none;
+}
+.list4 {
+    list-style-type: none;
+} */
+
+.listMain{
+    padding: 50px 20px 100px 235px;
+    display: flex;
+    color: #FFFFFFB3;
+    line-height: 30px;
+}
+
+#copyRight{
+    font-size: 11px;
+}
