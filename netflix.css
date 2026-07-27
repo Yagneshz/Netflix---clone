@@ -18,7 +18,7 @@
 .logo{
     height: 80px;
     width: 150px;
-    background-image: url(netflix_logo.png);
+    background-image: url("img/netflix_logo.png");
     background-size: cover; 
 }
 
